@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>TEST</title>
 </head>
 <body>
+
+<p>こんにちは</p>
+<% out.println(new java.util.Date()); %>
 
 </body>
 </html>

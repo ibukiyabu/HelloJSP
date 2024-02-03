@@ -11,9 +11,10 @@
 <%@page errorPage="total-error.jsp" %>
 
 <% 
-request.setCharacterEncoding("UTF-8")
+request.setCharacterEncoding("UTF-8");
+
 int price = Integer.parseInt(request.getParameter("price"));
-int count = Integer.pauseInt(request.getParameter("count"));
+int count = Integer.parseInt(request.getParameter("count"));
 int delivery = Integer.parseInt(request.getParameter("delivery"));
 
 %>
